@@ -2,11 +2,11 @@
   <div class="container_small_card-content">
     <div class="container_small_card_content-photo">
       <img
-      src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/09/24/379053569-859ada4fc65e15aefd0a1f078eb26b56.jpg"
+      src="{{photoSmallCard}}"
       alt="series">
     </div>
     <div class="container_small_card_content-title">
-      <h1><a href="#">Nova série da Marvel!</a></h1>
+      <h1><a [routerLink]="['content', id]">{{ titleSmallCard }}</a></h1>
     </div>
   </div>
 

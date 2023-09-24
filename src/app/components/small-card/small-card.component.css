@@ -10,9 +10,10 @@
   flex-direction: center;
 }
 
-
 .container_small_card_content-photo > img {
-  height: 200px;
+  min-height: 200px;
+  min-width: 100px;
+  max-width: 300px;
 }
 
 .container_small_card_content-title > h1 {
