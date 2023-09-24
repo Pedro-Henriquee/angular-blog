@@ -1,0 +1,17 @@
+.container_menu_bar > ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style: none;
+}
+
+.container_menu_bar > ul > li {
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container_menu_bar > ul > li > a {
+  text-decoration: none;
+}

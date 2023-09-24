@@ -1,0 +1,35 @@
+.container_big_card {
+  height: 600px;
+  width: 500px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container_big_card-photo > img {
+  width: 100%;
+  min-width: 500px;
+}
+
+.container_big_card-title {
+  margin-top: 20px;
+}
+
+.container_big_card-title > h1 {
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container_big_card-title > h1 > a {
+  text-decoration: none;
+}
+.container_big_card-text > p > a {
+  color: gray;
+  text-decoration: none;
+}
+
+.container_big_card-text {
+  margin-top: 20px;
+}
